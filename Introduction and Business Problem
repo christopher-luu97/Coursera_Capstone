@@ -1,0 +1,26 @@
+The problem:
+
+If you have ever wondered whether to travel to Manhattan or Toronto (when COVID is over and provided travel is easily accessible as it used to) then this analysis is for you.
+This project aims to analyse these two cities using FourSquare API and K-means clustering to help identify which of the two locations may be more interesting to travel to,
+subject to the readers(stakeholders) own preferences.
+
+Why Toronto and Manhattan?
+
+Given the wide variety of venues available in the vibrant cities, it may be difficult for someone with travel plans to see if they wish to travel to Canada or America.
+These two cities are listed as a part of the top 25 cities to travel in the world [1], with Toronto being multi-cultural, it presents a diverse range of venues that
+travellers could be interested in checking out. Manhattan on the other hand is a borough in New York, a place that is shown commonly in films and TV. Thus, for those
+wishing to experience Manhattan as they do in movies and films, this could be the place for them to go. As America and Canada are close together, allowing for ease of travel
+then there is potential to travel to both places as well, rather than being subject to only one location (if you have the money for it).
+
+Data used
+
+Manhattan data available from: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/labs/newyork_data.json
+Toronto data available from: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+Geospatial data available from:  https://cocl.us/Geospatial_data
+
+The above data are used together with Foursquare location data to cluster venues in Manhattan and Toronto, and are presented in a format that allows for ease of access.
+These two data sources are also used within the Coursera IBM Data Science Certification capstone projects, and this project aims to extend analysis based on these data.
+The ease of access comes from the format of the data which is structured, saving much time that is typically used in the data wrangling section of beginning projects.
+
+
+[1] https://www.afar.com/magazine/best-cities-in-the-world
